@@ -1,0 +1,4 @@
+2025-05-27 15:52:41.868 [info] update#setState idle
+2025-05-27 15:53:11.874 [info] update#setState checking for updates
+2025-05-27 15:53:11.882 [info] update#setState available for download
+2025-05-27 17:43:37.624 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: history.entries Length: 2

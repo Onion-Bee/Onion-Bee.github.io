@@ -1,0 +1,16 @@
+2025-05-26 00:25:17.590 [info] update#setState idle
+2025-05-26 00:25:25.339 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/4437686ffebaf200fa4a6e6e67f735f3edf24ada - error undefined net::ERR_CONNECTION_CLOSED
+2025-05-26 00:25:25.340 [error] update#isLatestVersion(): failed to check for updates
+2025-05-26 00:25:25.341 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:118774)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-05-26 00:25:27.574 [info] Extension host with pid 30309 exited with code: 0, signal: unknown.
+2025-05-26 00:25:41.444 [error] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/4437686ffebaf200fa4a6e6e67f735f3edf24ada - error undefined net::ERR_CONNECTION_CLOSED
+2025-05-26 00:25:41.444 [error] update#isLatestVersion(): failed to check for updates
+2025-05-26 00:25:41.444 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:118774)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-05-26 00:25:47.591 [info] update#setState checking for updates
+2025-05-26 00:26:00.270 [info] update#setState available for download
+2025-05-26 01:32:56.681 [info] Extension host with pid 30460 exited with code: 0, signal: unknown.
+2025-05-26 01:32:56.751 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 30450]: crashed with code 15 and reason 'killed'

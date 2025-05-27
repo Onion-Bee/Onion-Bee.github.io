@@ -1,0 +1,62 @@
+2025-05-26 00:25:18.235 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 00:25:18.245 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 00:25:18.246 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 00:25:18.371 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-05-26 00:25:18.490 [info] Started local extension host with pid 30309.
+2025-05-26 00:25:18.726 [error] Extension 'ms-python.vscode-pylance' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): mcpConfigurationProvider
+product.json (WINS): 
+2025-05-26 00:25:18.741 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-05-26 00:25:18.741 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-05-26 00:25:18.741 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-05-26 00:25:18.901 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-05-26 00:25:19.164 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2025-05-26 00:25:19.165 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2025-05-26 00:25:25.843 [info] [perf] Render performance baseline is 26ms
+2025-05-26 00:25:27.764 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 00:25:27.764 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 00:25:27.764 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 00:25:27.832 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-05-26 00:25:27.952 [info] Started local extension host with pid 30460.
+2025-05-26 00:25:28.192 [error] Extension 'ms-python.vscode-pylance' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): mcpConfigurationProvider
+product.json (WINS): 
+2025-05-26 00:25:28.512 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-05-26 00:25:28.589 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2025-05-26 00:25:28.589 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2025-05-26 00:25:30.374 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-05-26 00:25:30.374 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-05-26 00:25:30.375 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-05-26 00:25:34.339 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-05-26 00:25:40.494 [error] Error while getting the latest version for the extension mechatroner.rainbow-csv from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.498 [error] Error while getting the latest version for the extension ms-python.debugpy from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.498 [error] Error while getting the latest version for the extension ms-python.python from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.499 [error] Error while getting the latest version for the extension ms-python.vscode-pylance from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.500 [error] Error while getting the latest version for the extension oracle.oracle-java from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.500 [error] Error while getting the latest version for the extension redhat.java from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.501 [error] Error while getting the latest version for the extension sidthesloth.html5-boilerplate from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.502 [error] Error while getting the latest version for the extension visualstudioexptteam.intellicode-api-usage-examples from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.502 [error] Error while getting the latest version for the extension visualstudioexptteam.vscodeintellicode from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.503 [error] Error while getting the latest version for the extension vscjava.vscode-gradle from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.504 [error] Error while getting the latest version for the extension vscjava.vscode-java-debug from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.510 [error] Error while getting the latest version for the extension vscjava.vscode-java-dependency from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.511 [error] Error while getting the latest version for the extension vscjava.vscode-java-pack from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.512 [error] Error while getting the latest version for the extension vscjava.vscode-java-test from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:40.513 [error] Error while getting the latest version for the extension vscjava.vscode-maven from https://marketplace.visualstudio.com/_apis/public/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://www.vscode-unpkg.net/_gallery/{publisher}/{name}/latest Fetch timeout: 10000ms
+2025-05-26 00:25:41.643 [info] [perf] Render performance baseline is 27ms
+2025-05-26 00:25:43.245 [error] Error while getting the latest version for the extension ms-python.vscode-pylance. Failed to fetch
+2025-05-26 00:25:43.246 [error] Error while getting the latest version for the extension visualstudioexptteam.intellicode-api-usage-examples. Failed to fetch
+2025-05-26 00:25:43.247 [error] Error while getting the latest version for the extension ms-python.debugpy. Failed to fetch
+2025-05-26 00:25:43.247 [error] Error while getting the latest version for the extension oracle.oracle-java. Failed to fetch
+2025-05-26 00:25:43.248 [error] Error while getting the latest version for the extension visualstudioexptteam.vscodeintellicode. Failed to fetch
+2025-05-26 00:25:43.248 [error] Error while getting the latest version for the extension ms-python.python. Failed to fetch
+2025-05-26 00:25:43.249 [error] Error while getting the latest version for the extension mechatroner.rainbow-csv. Failed to fetch
+2025-05-26 00:25:43.249 [error] Error while getting the latest version for the extension redhat.java. Failed to fetch
+2025-05-26 00:25:43.249 [error] Error while getting the latest version for the extension vscjava.vscode-maven. Failed to fetch
+2025-05-26 00:25:43.249 [error] Error while getting the latest version for the extension vscjava.vscode-java-test. Failed to fetch
+2025-05-26 00:25:43.250 [error] Error while getting the latest version for the extension vscjava.vscode-java-pack. Failed to fetch
+2025-05-26 00:25:43.250 [error] Error while getting the latest version for the extension vscjava.vscode-java-dependency. Failed to fetch
+2025-05-26 00:25:43.251 [error] Error while getting the latest version for the extension sidthesloth.html5-boilerplate. Failed to fetch
+2025-05-26 00:25:43.251 [error] Error while getting the latest version for the extension vscjava.vscode-gradle. Failed to fetch
+2025-05-26 00:25:43.251 [error] Error while getting the latest version for the extension vscjava.vscode-java-debug. Failed to fetch
+2025-05-26 00:26:00.275 [info] [Extensions]: Checking for updates. Reason: Product update

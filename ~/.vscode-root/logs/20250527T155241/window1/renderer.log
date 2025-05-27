@@ -1,0 +1,17 @@
+2025-05-27 15:52:42.273 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-27 15:52:42.273 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-27 15:52:42.273 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-27 15:52:42.728 [info] Started local extension host with pid 4033.
+2025-05-27 15:52:43.033 [error] Extension 'ms-python.vscode-pylance' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): mcpConfigurationProvider
+product.json (WINS): 
+2025-05-27 15:52:43.054 [info] [Oracle.oracle-java]: Command `workbench.action.debug.run` already registered by Java (Oracle.oracle-java)
+2025-05-27 15:52:43.055 [info] [Oracle.oracle-java]: Command `workbench.action.debug.start` already registered by Java (Oracle.oracle-java)
+2025-05-27 15:52:43.055 [info] [Oracle.oracle-java]: Command `jdk.select.editor.projects` already registered by Java (Oracle.oracle-java)
+2025-05-27 15:52:43.592 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2025-05-27 15:52:43.592 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2025-05-27 15:52:43.811 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-05-27 15:52:45.350 [info] [perf] Render performance baseline is 17ms
+2025-05-27 15:53:11.892 [info] [Extensions]: Checking for updates. Reason: Product update
+2025-05-27 17:43:14.622 [warning] [File Watcher] Watcher shutdown because watched path got deleted (path: /root/Downloads/Kards10)
+2025-05-27 17:43:22.810 [warning] [File Watcher] Watcher shutdown because watched path got deleted (path: /root/Downloads/Kards10)

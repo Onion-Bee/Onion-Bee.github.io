@@ -1,0 +1,65 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "7f5fcd413ad6223709c894620fbd24b9c1dbb1af904f7c884edb2cbb666c8189",
+    "telemetry.devDeviceId": "6611dd34-fe39-49b5-ab10-29f7d1229d73",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///root/Downloads/Kards10"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///root/Downloads/Kards10": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///root/Downloads/Kards10",
+            "backupPath": "/root/Downloads/Kards10/~/.vscode-root/Backups/f69b86432045a0d3bb30684cec7ab2ac",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 35,
+                "width": 1920,
+                "height": 1045
+            }
+        },
+        "openedWindows": []
+    }
+}
