@@ -7,7 +7,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Kards</title>
+	<title>PORTFOLIO</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -43,7 +43,7 @@
    			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
 	   		<div class="logo">
-		         <a href="index.html">KARDS</a>
+		         <a href="index.html">MENU</a>
 		      </div>		      
 
 		   	<nav id="main-nav-wrap">
@@ -442,13 +442,13 @@
 
 	            <div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/beetle.jpg" alt="Beetle">
+	               	<img src="images/portfolio/CUBE.png" alt="Cube">
 	                  <a href="#modal-04" class="overlay">                  	                 
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Steganography Tool</h3>	     					    
+	                     		<h3 class="folio-title">Gesture Cube</h3>	     					    
 		     					    	<span class="folio-types">
-		     					       	  Data Encryption
+		     					       	  Human Computer Interaction
 		     					      </span>		     		
 		     					   </div>  	                      	
 	                     </div>                    
@@ -458,7 +458,7 @@
 
 	        		<div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/steg.png" alt="Lighthouse">
+	               	<img src="images/portfolio/steg.png" alt="Steganography">
 	                  <a href="#modal-05" class="overlay">             		                  
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
@@ -474,13 +474,13 @@
 
 	            <div class="bgrid folio-item">
 	               <div class="item-wrap">
-	               	<img src="images/portfolio/salad.jpg" alt="Salad">
+	               	<img src="images/portfolio/slamaruco.jpg" alt="SLAM">
 	                  <a href="#modal-06" class="overlay">
 	                     <div class="folio-item-table">
 	                     	<div class="folio-item-cell">
-	                     		<h3 class="folio-title">Salad</h3>	     					    
+	                     		<h3 class="folio-title">ArUco 2D SLAM</h3>	     					    
 		     					    	<span class="folio-types">
-		     					       	  Branding
+		     					       	  Robot Navigation
 		     					      </span>		     		
 		     					   </div>	                      	
 	                     </div>                    
@@ -569,19 +569,23 @@
 				   <div id="modal-04" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+				     		<img src="images/portfolio/modals/mcube.jpg" alt="" />
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h4>Beetle</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
-					      <div class="categories">Branding</div>			               
+					      <h3>Gesture Cube</h3>
+						  <h4>Technology : Python. OpenCV, Mediapipe, Pygame</h4>		      
+					      <p>It is an interactive computer vision project that allows users to rotate a 
+							3D cube in real-time using just their hand movements captured 
+							through a webcam. It leverages MediaPipe for hand landmark detection and Pygame for rendering and manipulating the cube on screen.
+							As users rotate their hand in 3D space, the cube mimics the orientation,
+							offering a touchless, intuitive interface. </p>
+					      <div class="categories">Human Computer Interaction</div>			               
 					   </div>
 
 			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
-					      <a href="https://drive.google.com/file/d/1m6Fjsv7EPEAoxZpz67apKZ2R5lIWIwdh/view?usp=sharing">DEMO</a>
+			            <a target="_blank" href="https://github.com/Onion-Bee/GestureCube">Github</a>
+					     <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
 				   </div> <!-- /modal-04 -->
@@ -593,10 +597,12 @@
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h3>Steganography Tool</h3>		      
+					      <h3>Steganography Tool</h3>	
+						  <h4>Technologies : Python, AES-256, LSB Encoding, Tkinter</h4>	      
 					      <p>Developed an image-based steganography tool to securely embed and extract encrypted messages, using 
 							LSB encoding, aditionally implemented AES-256 encryption for enhanced security along with 
-							an interactive GUI using Tkinter.
+							an interactive GUI using Tkinter. Using this software users can encode strings using AES-256 then hide it in an image 
+							and then decode it.
                            </p>
 
 					      <div class="categories">Data Encryption</div>			               
@@ -612,19 +618,25 @@
 				   <div id="modal-06" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+				     		<img src="images/portfolio/modals/mslam.png" alt="" />
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h4>Salad</h4>		      
-					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+					      <h3>ArUco 2D SLAM</h3>	
+						  <h4>Technologies : Python, OpenCV, NetworkX</h4>	      
+					      <p>It is a vision-based mapping system that processes an 
+							image containing ArUco markers to create a simplified map. Each tag 
+							is treated as a node, and the distances between them form edges, building a 
+							spatial graph of the terrain.
+                            It is used to calculate tag positions and relationships, 
+							enabling basic SLAM simulation for robotics, navigation, or indoor localization tasks.</p>
 
-					      <div class="categories">Branding</div>			               
+					      <div class="categories">Robot Navigation</div>			               
 					   </div>
 
 			         <div class="link-box">
-			            <a href="http://www.behance.net">Details</a>
-					      <a href="#" class="popup-modal-dismiss">Close</a>
+			            <a target="_blank" href="https://github.com/Onion-Bee/ArUco-SLAM">Details</a>
+					    <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
 				   </div> <!-- /modal-06 -->
